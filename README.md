@@ -26,6 +26,9 @@
 <hr/>
 </div>
 
+<h1>!! NOTICE !!</h1>
+<strong> THIS IS AN EXPERIMENTAL BUILD OF ARCHIVEBOX INTENDED TO BEGING THE TRANSITION FROM `chromium-browser` TO `pyppeteer` AND SHOULD BE CONSIDERED UNSTABLE </strong>
+<strong> IF YOU ARE LOOKING FOR THE LATEST STABLE BUILD OF ArchiveBox PLEASE USE <a href="https://github.com/pirate/ArchiveBox">THE OFFICIAL REPO</a> INSTEAD<strong>
 **ArchiveBox takes a list of website URLs you want to archive, and creates a local, static, browsable HTML clone of the content from those websites (it saves HTML, JS, media files, PDFs, images and more).** 
 
 You can use it to preserve access to websites you care about by storing them locally offline.  ArchiveBox imports lists of URLs, renders the pages in a headless, autheticated, user-scriptable browser, and then archives the content in multiple redundant common formats (HTML, PDF, PNG, WARC) that will last long after the originals disappear off the internet.  It automatically extracts assets and media from pages and saves them in easily-accessible folders, with out-of-the-box support for extracting git repositories, audio, video, subtitles, images, PDFs, and more.
